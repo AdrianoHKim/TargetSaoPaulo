@@ -12,9 +12,9 @@ que cada estado teve dentro do valor total mensal da distribuidora.
 """
 
 
-if __name__ == '__main__':
-    import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
+if __name__ == '__main__':
     # Faturamento mensal por estado
     faturamento_mensal = {
         'SP': 67836.43,
@@ -39,5 +39,5 @@ if __name__ == '__main__':
     if mostrar_grafico:
         # Criando o grafico
         plt.pie(porcentagens.values(), labels=porcentagens.keys(), autopct='%1.1f%%')
-        plt.title("Representacao porcentual de cada estado: ")
+        plt.title("Representacao percentual de cada estado: ")
         plt.show()
