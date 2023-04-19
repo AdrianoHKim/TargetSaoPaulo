@@ -10,6 +10,7 @@ b) Evite usar funções prontas, como, por exemplo, reverse;
 string = input("Escreva uma palavra: ")
 string_reversa = ""
 
+# Invertendo os caracteres
 for i in range(len(string)-1, -1, -1):
     string_reversa += string[i]
 
