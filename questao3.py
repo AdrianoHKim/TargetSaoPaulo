@@ -35,7 +35,7 @@ if __name__ == '__main__':
     dias_acima_da_media = sum(1 for d in valor_filtrado if d['valor'] > media)
 
     # Mostrando os resultados
-    print(f"Menor valor de faturamento ocorrido em um dia: R$ {menor['valor']} no dia {menor['dia']}")
-    print(f"Maior valor de faturamento ocorrido em um dia: R$ {maior['valor']} no dia {maior['dia']}")
+    print(f"Menor valor faturado em um dia: R$ {menor['valor']} no dia {menor['dia']}")
+    print(f"Maior valor faturado em um dia: R$ {maior['valor']} no dia {maior['dia']}")
     print(f"Media de faturamento diario: R$ {media:.2f}")
     print(f"Quantidade de dias com faturamento acima da media: {dias_acima_da_media}")
