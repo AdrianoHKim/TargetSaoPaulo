@@ -11,6 +11,8 @@ SOMA = SOMA + K;
 imprimir(SOMA);
 
 Ao final do processamento, qual será o valor da variável SOMA?
+
+OBS.: Feito na linguagem Python
 """
 
 
