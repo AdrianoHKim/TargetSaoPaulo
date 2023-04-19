@@ -9,7 +9,7 @@ previamente definido no código;
 
 OBS.:  Uma caracteristica essencial da sequencia Fibonacci é:
 
-    N é um numero fibonacci SE (5N^2 + 4) OU (5N^2 - 4) for um quadrado perfeito.
+N é um numero fibonacci SE (5N^2 + 4) OU (5N^2 - 4) for um quadrado perfeito.
 """
 
 import math
