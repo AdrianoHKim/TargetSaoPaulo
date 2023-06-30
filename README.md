@@ -1,2 +1,2 @@
 # Target
-Questoes do processo seletivo
+Questões do processo seletivo
